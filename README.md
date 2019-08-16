@@ -22,13 +22,14 @@ You need to download the factory image from here:
 
 https://developers.google.com/android/images
 
-extract the system image. It will be in a sparse format, so unpack it via this command:
+ And extract the system image. It will be in a sparse format, so unpack it via this command:
 
 $ simg2img system.img system.ext4
 
 From there, you can mount the ext4 image to a directory:
 
 $ mkdir /tmp/sargo
+
 (as root) # mount -o ro system.ext4 /tmp/sargo
 
 Now, you can copy everything in the "scripts" folder to the root of your source tree. (this must be done after unpacking the drivers because the unpacking of the drivers will overwite a file in {src-tree}vendor/google_devices/bonito/proprietary/, and without it, the bild process will not include the extra files) Then:
