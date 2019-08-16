@@ -45,4 +45,11 @@ Both of the txt files are ones that are a) known good, and b) one I took from ht
 
 If you figure out new files that are good for me to have, feel free to submit a pull request!
 
+One good note:
+
+If you are experiementing with the proprietary files, you can completely compile and then use the command
+
+$m installclean
+
+and that only deleted the images. That way compiling it with new files only takes ~5 minutes (versus hours for a completely new build).
 
