@@ -24,7 +24,7 @@ https://developers.google.com/android/images
 
  And extract the system image. It will be in a sparse format, so unpack it via this command:
 
-`'$ simg2img system.img system.ext4`
+`$ simg2img system.img system.ext4`
 
 From there, you can mount the ext4 image to a directory:
 
@@ -35,6 +35,7 @@ From there, you can mount the ext4 image to a directory:
 Now, you can copy everything in the "scripts" folder to the root of your source tree. (this must be done after unpacking the drivers because the unpacking of the drivers will overwite a file in {src-tree}vendor/google_devices/bonito/proprietary/, and without it, the bild process will not include the extra files) Then:
 
 `$ cd  {root of source tree}/device/google/bonito/sargo/`
+
 `$ ./extract-files.sh --sargo /tmp/sargo`
 
 This will populate {root of source tree}/vendor/google_extra/ with the make files and the proprietary files needed.
@@ -42,6 +43,7 @@ This will populate {root of source tree}/vendor/google_extra/ with the make file
 Once you do this, then you can compile via 
 
 `$ cd  {root of source tree}`
+
 `$ m`
 
 If you want to experiment with which files are needed, you need to edit scripts/device/google/bonito/sargo-proprietary-files.txt
