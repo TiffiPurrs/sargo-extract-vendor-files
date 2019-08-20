@@ -48,13 +48,13 @@ Once you do this, then you can compile via
 
 If you want to experiment with which files are needed, you need to edit scripts/device/google/bonito/sargo-proprietary-files.txt
 
-Both of the txt files are ones that are a) known good, and b) one I took from https://github.com/gee-one/android_device_google_bonito to experiement with.
+Both of the txt files are ones that are a) known good, and b) one I took from https://github.com/gee-one/android_device_google_bonito to experiment with.
 
-If you are experiementing with the proprietary files, you can completely compile and then use the command
+If you are experimenting with the proprietary files, you can completely compile and then use the command
 
 `$ m installclean`
 
-and that only deleted the images. That way compiling it with new files only takes ~5 minutes (versus hours for a completely new build).
+That only deletes the images. That way compiling it with new files only takes ~5 minutes (versus hours for a completely new build).
 
 If you figure out new files that are good for me to have, feel free to submit a pull request!
 
