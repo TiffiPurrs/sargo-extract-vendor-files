@@ -34,7 +34,7 @@ From there, you can mount the ext4 image to a directory:
 
 Now, you can copy everything in the "scripts" folder to the root of your source tree. (this must be done after unpacking the drivers because the unpacking of the drivers will overwite a file in {src-tree}vendor/google_devices/bonito/proprietary/, and without it, the bild process will not include the extra files) Then:
 
-`$ cd  {root of source tree}/device/google/bonito/sargo/`
+`$ cd  {root of source tree}/device/google/bonito/`
 
 `$ ./extract-files.sh --sargo /tmp/sargo`
 
