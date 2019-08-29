@@ -17,19 +17,11 @@ etc/permissions/privapp-permissions-bonito.xml
 etc/permissions/android.hardware.telephony.euicc.xml
 etc/permissions/cneapiclient.xml
 etc/permissions/com.android.sdm.plugins.connmo.xml
-etc/permissions/com.android.vzwomatrigger.xml
-etc/permissions/com.customermobile.preload.vzw.xml
-etc/permissions/com.google.android.camera.experimental2018.xml
-etc/permissions/com.google.android.hardwareinfo.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
 etc/permissions/com.quicinc.cne.xml
-etc/permissions/com.verizon.apn.xml
-etc/permissions/com.verizon.llkagent.xml
-etc/permissions/com.verizon.services.xml
 etc/permissions/obdm_permissions.xml
 etc/permissions/privapp-permissions-google.xml
 etc/permissions/UimService.xml
-etc/permissions/vzw_mvs_permissions.xml
 
 # Radio
 -app/datastatusnotification/datastatusnotification.apk
@@ -77,25 +69,35 @@ lib/vendor.qti.imsrtpservice@1.0.so
 -priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 -priv-app/CNEService/CNEService.apk
 -priv-app/DMService/DMService.apk
-#-priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-#priv-app/EuiccGoogle/esim-full-v0.img
-#priv-app/EuiccGoogle/esim-v1.img
 -priv-app/grilservice/grilservice.apk
 -priv-app/ModemService/ModemService.apk
 -priv-app/OemDmTrigger/OemDmTrigger.apk
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
+# eSIM: This enables the eSIM, but it will crash if MicroG or Google Play Services is not installed.
+# Disabling until functionality is proven (it shows up, but right now hasn't been confirmed working with a carrier
+#-priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+#priv-app/EuiccGoogle/esim-full-v0.img
+#priv-app/EuiccGoogle/esim-v1.img
+
 # Sprint
-etc/permissions/com.android.sdm.plugins.sprintdm.xml
--priv-app/SprintDM/SprintDM.apk
--priv-app/SprintHM/SprintHM.apk
+# Disabling until functionality is proven (Do these actually do anything?)
+#etc/permissions/com.android.sdm.plugins.sprintdm.xml
+#-priv-app/SprintDM/SprintDM.apk
+#-priv-app/SprintHM/SprintHM.apk
 
 # VZW
+# Disabling until functionality is proven (Do these actually do anything?)
 #-app/vzw_msdc_api/vzw_msdc_api.apk
-etc/permissions/com.verizon.embms.xml
-etc/permissions/com.verizon.provider.xml
-etc/permissions/features-verizon.xml
--framework/VerizonUnifiedSettings.jar;PRESIGNED
--priv-app/VerizonAuthDialog/VerizonAuthDialog.apk;PRESIGNED
--priv-app/WfcActivation/WfcActivation.apk
-
+#etc/permissions/com.verizon.embms.xml
+#etc/permissions/com.verizon.provider.xml
+#etc/permissions/features-verizon.xml
+#etc/permissions/com.verizon.apn.xml
+#etc/permissions/com.verizon.llkagent.xml
+#etc/permissions/com.verizon.services.xml
+#etc/permissions/vzw_mvs_permissions.xml
+#etc/permissions/com.android.vzwomatrigger.xml
+#etc/permissions/com.customermobile.preload.vzw.xml
+#-framework/VerizonUnifiedSettings.jar;PRESIGNED
+#-priv-app/VerizonAuthDialog/VerizonAuthDialog.apk;PRESIGNED
+#-priv-app/WfcActivation/WfcActivation.apk
