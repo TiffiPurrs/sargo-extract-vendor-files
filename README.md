@@ -44,10 +44,6 @@ Optionally, follow this guide to add "4G" (or LTE) to your recommended network t
 
 `http://paldan.altervista.org/lte-in-aosp-preferred-network-settings/`
 
-Optionally, follow this to change '4G' to 'LTE' on your network status:
-
-`https://www.reddit.com/r/Android/comments/1q9818/til_android_has_configuration_options_to_show_lte/`
-
 Once you do this, then you can compile via 
 
 `$ cd  {root of source tree}`
