@@ -42,7 +42,7 @@ This will populate {root of source tree}/vendor/google_extra/ with the make file
 
 Optionally, follow this guide to add "4G" (or LTE) to your recommended network types:
 
-`https://forum.xda-developers.com/showpost.php?p=80160287&postcount=101`
+https://forum.xda-developers.com/showpost.php?p=80160287&postcount=101
 
 Once you do this, then you can compile via 
 
