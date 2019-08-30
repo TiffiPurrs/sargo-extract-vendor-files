@@ -40,6 +40,14 @@ Now, you can copy everything in the "scripts" folder to the root of your source 
 
 This will populate {root of source tree}/vendor/google_extra/ with the make files and the proprietary files needed.
 
+Optionally, follow this guide to add "4G" (or LTE) to your recommended network types:
+
+`http://paldan.altervista.org/lte-in-aosp-preferred-network-settings/`
+
+Optionally, follow this to change '4G' to 'LTE' on your network status:
+
+`https://www.reddit.com/r/Android/comments/1q9818/til_android_has_configuration_options_to_show_lte/`
+
 Once you do this, then you can compile via 
 
 `$ cd  {root of source tree}`
