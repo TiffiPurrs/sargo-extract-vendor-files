@@ -8,3 +8,4 @@ Note that I made this specific to the Google Pixel 3a (Sargo), but it can be ada
 For Usage on Android Pie, look in UsagePie.md
 
 For Usage on Android 10, look in Usage10.md
+NOTE: Android 10 is still in Beta, I currently have an unbootable system with it.
