@@ -1,0 +1,25 @@
+# Bluetooth
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+
+# Now Playing
+etc/firmware/music_detector.descriptor
+etc/firmware/music_detector.sound_model
+
+# Permissions
+etc/permissions/com.android.sdm.plugins.connmo.xml
+etc/permissions/obdm_permissions.xml
+etc/permissions/com.android.omadm.service.xml
+etc/permissions/com.google.omadm.trigger.xml
+etc/permissions/privapp-permissions-google-p.xml
+etc/permissions/privapp-permissions-google-ps.xml
+
+
+# Radio
+etc/sysconfig/whitelist_com.android.omadm.service.xml
+-priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
+-priv-app/DMService/DMService.apk
+-priv-app/grilservice/grilservice.apk
+-priv-app/OemDmTrigger/OemDmTrigger.apk
+lib/libdmengine.so
+lib/libdmjavaplugin.so

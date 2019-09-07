@@ -1,0 +1,42 @@
+# Listen
+# Disabling until functionality is proven (Do these actually do anything?)
+#lib64/liblistenjni.so
+#lib64/liblistensoundmodel2.so
+#lib/liblistenjni.so
+#lib/liblistensoundmodel2.so
+
+# Permissions
+etc/permissions/cneapiclient.xml
+etc/permissions/com.qualcomm.qti.imscmservice.xml
+etc/permissions/com.quicinc.cne.xml
+etc/permissions/privapp-permissions-google.xml
+etc/permissions/UimService.xml
+etc/permissions/embms.xml
+
+# Radio
+-app/datastatusnotification/datastatusnotification.apk
+-app/embms/embms.apk
+-app/ims/ims.apk
+-app/uceShimService/uceShimService.apk
+etc/permissions/qcrilhook.xml
+-framework/com.qualcomm.qti.uceservice-V2.0-java.jar;PRESIGNED
+-framework/embmslibrary.jar;PRESIGNED
+-framework/qcrilhook.jar;PRESIGNED
+-framework/QtiTelephonyServicelibrary.jar;PRESIGNED
+-framework/vendor.qti.ims.callinfo-V1.0-java.jar;PRESIGNED
+lib64/lib-imsvideocodec.so
+lib64/lib-imsvtextutils.so
+lib64/lib-imsvt.so
+lib64/lib-imsvtutils.so
+lib64/libimscamera_jni.so
+lib64/libimsmedia_jni.so
+lib64/librcc.so
+lib64/vendor.qti.imsrtpservice@1.0.so
+lib/lib-imsvideocodec.so
+lib/lib-imsvtextutils.so
+lib/lib-imsvt.so
+lib/lib-imsvtutils.so
+lib/librcc.so
+lib/vendor.qti.imsrtpservice@1.0.so
+-priv-app/CNEService/CNEService.apk
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk

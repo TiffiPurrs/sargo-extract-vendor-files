@@ -1,0 +1,52 @@
+# Listen
+# Disabling until functionality is proven (Do these actually do anything?)
+#lib64/liblistenjni.so
+#lib64/liblistensoundmodel2.so
+#lib/liblistenjni.so
+#lib/liblistensoundmodel2.so
+
+# eSIM: This enables the eSIM, but it will crash if MicroG or Google Play Services is not installed.
+# Disabling until functionality is proven (it shows up, but right now hasn't been confirmed working with a carrier
+#etc/permissions/android.hardware.telephony.euicc.xml
+#-priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+#priv-app/EuiccGoogle/esim-full-v0.img
+#priv-app/EuiccGoogle/esim-v1.img
+
+# Sprint
+# Disabling until functionality is proven (Do these actually do anything?)
+#etc/permissions/com.android.sdm.plugins.sprintdm.xml
+#-priv-app/SprintDM/SprintDM.apk
+#-priv-app/SprintHM/SprintHM.apk
+
+# VZW
+# Disabling until functionality is proven (Do these actually do anything?)
+#-app/vzw_msdc_api/vzw_msdc_api.apk
+#etc/permissions/com.verizon.embms.xml
+#etc/permissions/com.verizon.provider.xml
+#etc/permissions/features-verizon.xml
+#etc/permissions/com.verizon.apn.xml
+#etc/permissions/com.verizon.llkagent.xml
+#etc/permissions/com.verizon.services.xml
+#etc/permissions/vzw_mvs_permissions.xml
+#etc/permissions/com.android.vzwomatrigger.xml
+#etc/permissions/com.customermobile.preload.vzw.xml
+#-framework/VerizonUnifiedSettings.jar;PRESIGNED
+#-priv-app/VerizonAuthDialog/VerizonAuthDialog.apk;PRESIGNED
+#-priv-app/WfcActivation/WfcActivation.apk
+
+
+
+# Not found in /system nor /product
+-app/remotesimlockservice/remotesimlockservice.apk
+-app/uimlpaservice/uimlpaservice.apk
+etc/permissions/com.google.modemservice.xml
+etc/permissions/lpa.xml
+etc/permissions/RemoteSimlock.xml
+framework/LowPowerMonitorDeviceInterface.jar
+framework/LowPowerMonitorDeviceRpm.jar
+framework/PowerAnomalyDataModemInterface.jar
+framework/PowerAnomalyQcril.jar
+-framework/uimlpalibrary.jar;PRESIGNED
+-framework/uimremotesimlocklibrary.jar;PRESIGNED
+-priv-app/ModemService/ModemService.apk
+
